@@ -1,0 +1,115 @@
+.header .header-right .header-contact {
+    padding: 0;
+}
+
+.footer_main > .my-student-am-g-footer > h3 {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 700;
+}
+
+.footer_main > .my-student-am-g-footer > h3 > p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 700;
+}
+
+.layout-footer .footer .footer--inner .footer_main {
+    position: relative;
+}
+
+.my-student-am-g-footer {
+    text-align: center;
+    padding: 4em 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.product1-show-container {
+    margin-top: 50px;
+}
+
+[class*="am-avg-"] {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@media only screen and (min-width: 641px) {
+    .am-avg-md-5 > li:nth-of-type(5n + 1) {
+        clear: both;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    .am-avg-md-5 > li:nth-of-type(n) {
+        clear: none;
+    }
+
+    .am-avg-sm-2 > li:nth-of-type(2n + 1) {
+        clear: both;
+    }
+
+    .am-avg-sm-2 > li:nth-of-type(n) {
+        clear: none;
+    }
+
+    .product1-show-container ul li {
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    .am-avg-md-5 > li {
+        width: 20%;
+    }
+
+    .am-avg-sm-2 > li {
+        width: 50%;
+    }
+}
+
+[class*="am-avg-"] > li {
+    display: block;
+    height: auto;
+    float: left;
+}
+
+.product1-show-container ul li .product-img-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.product1-show-container ul li  {
+    box-shadow:2px 2px 12px blue ;
+
+}
+.product1-show-container ul li a img {
+    width: 100%;
+    height:auto
+
+}
+.product1-show-container ul li{overflow: hidden;}
+.product1-show-container ul li a img{
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.product1-show-container ul li a img:hover{
+    transform: scale(1.2,1.2);
+    transition: transform 0.5s ease-in-out;
+}
+.nav-contain .nav-inner .am-nav li a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-contain .nav-inner .am-nav li.active a, .nav-contain .nav-inner .am-nav li a:hover {
+    color: #59bcdb;
+    transition: all 0.3s ease-in-out;
+}
